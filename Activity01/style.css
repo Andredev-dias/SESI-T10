@@ -1,0 +1,19 @@
+body{
+   padding: 20px;
+   overflow-x: hidden;
+}
+.principal{
+    width:97% ;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.font-style{
+    font-size: 3rem;
+    font-family: 'Single Day', cursive;
+}
+.font-style02{
+    font-size: 1.8rem;
+}
