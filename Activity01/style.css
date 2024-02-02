@@ -4,16 +4,22 @@ body{
 }
 .principal{
     width:97% ;
-    height: 500px;
+    height:auto;
     padding: 20px;
     text-align: center;
-    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
 
 .font-style{
+    border-bottom: 2px solid lightgray;
     font-size: 3rem;
     font-family: 'Single Day', cursive;
+    padding-bottom: 15px;
 }
 .font-style02{
     font-size: 1.8rem;
+    color:darkgrey
+}
+
+.div-calculos{
+    background-color: lightgray;
 }
