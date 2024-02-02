@@ -22,4 +22,10 @@ body{
 
 .div-calculos{
     background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
