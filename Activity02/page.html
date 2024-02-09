@@ -7,8 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -47,11 +48,26 @@
     </div>
     <div class="contactDiv" id="contact">
         <div class="leftContact">
-            <h2>Contato</h2>
-            <p>Aqui você poed me mandar uma mensagem.</p>
+            <div>
+                <h2>Contato</h2>
+                <p>Aqui você poed me mandar uma mensagem.</p>
+            </div>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+            </div>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea type="text" id="mensagem"></textarea>
+            </div>
+            <button onclick="conferirMensagemWhatsApp()">Conferir dados</button>
         </div>
         <div class="rightContact">
-            <p>a direita</p>
+            <div>
+                <p>Nome: <span id="confNome"></span></p>
+                <p>Mensagem: <span id="confMsg"></span></p>
+            </div>
+            <button onclick="enviar()">ZAP</button>
         </div>
         
     </div>

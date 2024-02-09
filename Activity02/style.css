@@ -84,12 +84,12 @@ a:hover{
     gap: 20px;
 }
 .leftContact{
-    background-color: red;
+    background-color: #ffffff;
     width: 600px;
     height: 500px;
 }
 .rightContact{
-    background-color: blue;
+    background-color: #ffffff;
     width: 600px;
     height: 500px;
 }
