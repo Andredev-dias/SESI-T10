@@ -1,0 +1,32 @@
+[
+    {
+    "id": 1,
+    "descricao": "Perfume 01",
+    "imagem": "",
+    "preco": "100.00"
+    },
+    {
+    "id": 2,
+    "descricao": "Perfume 02",
+    "imagem": "",
+    "preco": "200.00" 
+    },
+    {
+    "id": 3,
+    "descricao": "Perfume 03",
+    "imagem": "",
+    "preco": "300.00" 
+    },
+    {
+    "id": 4,
+    "descricao": "Perfume 04",
+    "imagem": "",
+    "preco": "400.00" 
+    },
+    {
+    "id": 5,
+    "descricao": "Perfume 05",
+    "imagem": "",
+    "preco": "500.00" 
+    }
+]
