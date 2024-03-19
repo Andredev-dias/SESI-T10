@@ -6,25 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3-7-0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 </head>
 <body>
     <div class="wrap-login">
        <img class="img-style" src="../Imagens/logo.jpg" alt="Logo" width="300px" height="auto">
        <div class="form-div">
             <h1>Credenciais</h1>
-            
                 <input type="text" placeholder="Insira seu login" id="nome">
-
                 <div style="position: relative;">
                     <input type="password" placeholder="Insira sua senha" id="senha">
                     <span onclick="showPassword()" class="key">🔑</span>
                 </div>
-                
                 <button onclick="login()">Entrar</button>
-
         </div>
     </div>
+
+    <div class="error-div" id="error-modal">
+        <h3>Credenciais incorretas</h3>
+        <button onclick="fecharModal()">Fechar</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
