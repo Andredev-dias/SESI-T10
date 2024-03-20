@@ -19,6 +19,8 @@ document.addEventListener("DOMContentLoaded", function (){
             card.className = "card"
             card.style.width = "18rem"
             card.style.marginRight = "10px"
+            card.style.marginBottom = "10px"
+
 
             const imagem = document.createElement("img")
             imagem.src = produto.imagem
@@ -33,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function (){
 
             const cardText = document.createElement("p")
             cardText.className = "card-text"
-            cardText.textContent = produto.preco
+            cardText.textContent = "R$ " + produto.preco.toFixed(2)
 
             const btnAdicionarAoCarrinho = document.createElement("a")
             btnAdicionarAoCarrinho.href = "#"

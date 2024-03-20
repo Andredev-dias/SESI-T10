@@ -3,30 +3,30 @@
     "id": 1,
     "descricao": "Perfume 01",
     "imagem": "../Imagens/01.jpg",
-    "preco": "100.00"
+    "preco": 100.00
     },
     {
     "id": 2,
     "descricao": "Perfume 02",
     "imagem": "../Imagens/02.jpg",
-    "preco": "200.00" 
+    "preco": 200.00
     },
     {
     "id": 3,
     "descricao": "Perfume 03",
     "imagem": "../Imagens/03.jpg",
-    "preco": "300.00" 
+    "preco": 300.00
     },
     {
     "id": 4,
     "descricao": "Perfume 04",
     "imagem": "../Imagens/04.jpg",
-    "preco": "400.00" 
+    "preco": 400.00
     },
     {
     "id": 5,
     "descricao": "Perfume 05",
     "imagem": "../Imagens/05.webp",
-    "preco": "500.00" 
+    "preco": 500.00
     }
 ]
