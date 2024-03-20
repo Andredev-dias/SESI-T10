@@ -15,7 +15,7 @@ function login(){
     if(nome && senha && nome === "admin" && senha === "12345"){
             const user = {
                 name: nome,
-                dataEntrada: new Date(),
+                dataEntrada: formatarData(new Date()),
                 id: Math.floor(Math.random() * 100000)
             }
             localStorage.setItem("usuario", JSON.stringify(user))
@@ -28,4 +28,12 @@ function login(){
 const fecharModal = () => document.getElementById('error-modal').style.display = "none"
 
 
-
+function formatarData(item){
+    var options = {
+        month: "numeric",
+        day: "numeric",
+        hour: "numeric",
+        minute: "numeric",
+    }
+    return item.toLocaleString("pt-BR", options)
+}
