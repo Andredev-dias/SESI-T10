@@ -34,3 +34,5 @@ function removeItemDoCarrinho(index){
 }
     exibirCarrinho();
 });
+
+const successClose = () => document.getElementById("pedido").style.display = "none";
